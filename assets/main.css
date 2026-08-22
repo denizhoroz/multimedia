@@ -1,0 +1,157 @@
+/* App-wide styling */
+body {
+    background-color: #0f1116;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding-left: 20px;
+    position: sticky;
+}
+
+#navbar-category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #1f1f1f;
+    padding: 12px;
+    max-width: 150px;
+    border-radius: 8px;
+
+}
+
+.app-section {
+    display: flex; 
+    flex-direction: row; 
+    gap: 32px; 
+    height: 100vh;
+}
+
+.content-area {
+    height: 80%;
+    margin: 20px;
+    /* height: 100%;
+    width: 100%; */
+}
+
+.content-box {
+    height: 100%;
+    width: 100%;
+}
+
+#hero {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#links {
+    width: 400px;
+    text-align: left;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin: 10px 0px;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#links a:hover {
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+#header {
+    max-width: 1200px;
+}
+
+.converter-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 500px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.control-group label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.control-group button,
+.control-group select {
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid #333333;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.control-group button:hover:not(:disabled) {
+    background-color: #2a2a2a;
+}
+
+.control-group button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.control-group select {
+    appearance: none;
+}
+
+.file-path {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 13px;
+    color: #aaaaaa;
+    word-break: break-all;
+}
+
+.media-type {
+    font-size: 12px;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status {
+    padding: 10px 14px;
+    border-radius: 6px;
+    background-color: #1f1f1f;
+    border-left: 4px solid #4a9eff;
+    font-size: 14px;
+}
+
+.warning {
+    padding: 10px 14px;
+    border-radius: 6px;
+    background-color: #3b1f1f;
+    border-left: 4px solid #ff6b6b;
+    color: #ffaaaa;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+
+
